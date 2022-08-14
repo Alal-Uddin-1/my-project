@@ -1,0 +1,437 @@
+body {
+    color: #555555;
+    /* font-family: 'Roboto Condensed', sans-serif; */
+    font-family: 'Dosis', sans-serif;
+}
+
+
+/**********************************************************************/
+
+
+/************************** COMMON ELEMENTS **************************/
+
+
+/********************************************************************/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #333333;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.rf {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+a:focus {
+    outline: none;
+}
+
+
+/*************************************************************************
+*************************************************************************
+*************************************************************************/
+
+/* navbar starting*/
+.navbar{
+    background-color: #773A3D;
+}
+.navbar a{
+    color: white;
+    font-size: 22px;
+}
+
+.navbar .navbar-brand .brand-logo{
+    width:50px;
+    height: 50px;
+    border-radius: 15%;
+    position: absolute;
+    margin:0px;
+    
+    
+}
+
+.navbar .navbar-brand .title-1{
+    color:#007ACC;
+    font-size:35px;
+    font-weight: bold;
+    margin-left:60px;
+}
+.navbar .navbar-brand .title-2{
+    font-size:35px;
+    font-weight: bold;
+}
+
+
+.navbar-toggler{
+    width: 47px;
+    height: 34px;
+    background-color: #ffffff;
+    border:none;
+}
+.navbar-toggler .line{
+    width: 100%;
+    float: left;
+    height: 2px;
+    background-color: #773A3D;
+    margin-bottom: 5px;
+}
+/* navbar ending*/
+
+/* banar header staring*/
+.banar{
+    background: url('/images/bg.jpg') no-repeat center fixed;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    padding-bottom: 0px;
+    padding-top: 130px;
+    color: #fff;
+    margin-bottom: 0px;
+    height: 0 auto;
+    background-color: rgba(0, 0, 0, .6);
+    background-blend-mode: multiply;
+    min-height: 700px;
+}
+.banar-content h1{
+    color:#007ACC;
+    text-align: center;
+    font-weight: bold;
+    padding: 30px;
+    margin-bottom:7%;
+    
+}
+.banar-content h2{
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+/* banar header ending*/
+/* important announcement starting*/
+.important-announcement{
+    padding:50px;
+    background-color: #F0FFFF;
+}
+.important-announcement .heading h2{
+    color:#007ACC;
+    text-align: center;
+    font-weight: bold;
+    font-size:50px;
+    margin-bottom:20px;
+}
+
+.important-dates{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.important-dates h3{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.important-dates p{
+    line-height:.6;
+
+}
+.payment-information{
+    text-align:center;
+
+}
+
+.payment-information h3{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: red;
+}
+
+.payment-information p{
+    line-height: .6;
+}
+
+.registration h3{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.registration table tr{
+    line-height: .6;
+
+}
+
+.registration table td{
+    font-size: 13px;
+}
+
+.registration table th{
+    font-size: 13px;
+}
+
+.registration .registration-link{
+    text-align: center;
+}
+.award-grant{
+    text-align: center;
+}
+.award-grant h3{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.award-grant p{
+    line-height: .6;
+}
+
+.award-grant .grant .heading{
+    color: red;
+    font-size: 18px;
+    text-align: center;
+}
+.award-grant .grant p{
+    text-align: justify;
+    line-height:1.5;
+    font-weight: bold;
+}
+/* important announcement ending */
+/* about tcce starting*/
+.about-tcce{
+    padding: 70px;
+    background-color: #F0FFFF;
+}
+
+.about-tcce .heading{
+    color:#007ACC;
+    text-align: center;
+    font-weight: bold;
+    font-size:50px;
+    margin-bottom:20px;
+}
+.about-tcce-2022{
+    text-align:justify;
+    line-height: 1.3;
+}
+
+.about-tcce .track-title{
+    color:#982925;
+}
+.about-tcce ul{
+    list-style-type: circle;
+
+}
+.about-tcce li{
+    letter-spacing: 1px;
+    color:#428BCA;
+}
+.about-tcce .objective-heading{
+    color:#007ACC;
+    text-align: center;
+    font-weight: bold;
+    font-size:30px;
+    padding: 30px;
+}
+.about-tcce .objective{
+    line-height:1.3;
+}
+
+.about-tcce table tr:hover{
+    background-color:#F5F5F5;
+    
+}
+.about-tcce table tr p{
+    line-height:1.2;
+}
+/* about tcce ending*/
+/*publication-support starting*/
+.publication-support{
+    padding:0px 50px 0px 50px;
+    background-color:#F0FFFF;
+    margin:0px;
+}
+.publication-support .heading{
+    color:#007ACC;
+    text-align: center;
+    font-weight: bold;
+    font-size:30px;
+    margin-bottom:40px;
+}
+.publication-support img{
+    border-radius:10%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.publication-support .support h2{
+    color: black;
+    text-align: center;
+}
+.publication-support .support img{
+    border-radius:10%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*publication-support ending*/
+/* keynotes starting*/
+.keynote{
+    padding:70px;
+    background-color:#F0FFFF;
+    text-align: center;
+}
+.keynote .heading{
+    color:#007ACC;
+    text-align: center;
+    font-weight: bold;
+    font-size:50px;
+    margin-bottom:40px;
+}
+
+.MM-IEEE .title{
+    display: block;
+}
+/*keynotes ending*/
+/*committee starting*/
+.committee{
+    padding:70px;
+    background-color:#F0FFFF;
+    
+}
+.committee .heading{
+    color:#007ACC;
+    text-align: center;
+    font-weight: bold;
+    font-size:50px;
+    margin-bottom:40px;
+}
+
+.committee h4{
+    color:#982925;
+}
+
+.committee ul{
+    list-style-type: circle;
+}
+.committee ul li{
+    color:#428BCA;
+    letter-spacing: 1px;
+}
+/* committee ending*/
+/*financial-support starting*/
+.financial-support{
+    background-color: #F0FFFF;
+    margin:0px;
+}
+.financial-support .heading{
+    color:#007ACC;
+    text-align: center;
+    font-weight: bold;
+    font-size:50px;
+    margin-bottom:40px;
+    padding-top:10px;
+}
+/*financial support ending*/
+
+/*conference mode starting*/
+.conference-mode{
+    background-color: #F0FFFF;
+    padding:70px 70px 0px 70px;
+    margin:0px;
+}
+.conference-mode .heading{
+    color:#007ACC;
+    text-align: center;
+    font-weight: bold;
+    font-size:50px;
+    margin-bottom:40px;
+}
+/* conference mode ending*/
+
+/*organizer starting*/
+.organizer .icon{
+    text-align: right;
+    color: #428BCA;
+    font-size: 20px;
+}
+/*organizer ending*/
+/*scope starting*/
+.scope{
+    padding: 70px 70px 0px 70px;
+}
+.scope .heading{
+    color:#007ACC;
+    text-align: center;
+    font-weight: bold;
+    font-size:50px;
+    margin-bottom:40px;
+}
+/*scope ending*/
+/*cfp starting*/
+.cfp{
+    padding:70px 70px 0px 70px;
+    background-color: #F0FFFF;
+}
+.cfp .heading{
+    color:#007ACC;
+    text-align: center;
+    font-weight: bold;
+    font-size:50px;
+    margin-bottom:40px;
+}
+/*cfp ending*/
+
+/*camera submission section starting*/
+.camera-submission{
+    padding:70px 70px 0px 70px;
+    background-color: #F0FFFF;
+    margin-bottom:-15px;
+}
+
+.camera-submission .heading{
+    color:#007ACC;
+    text-align: center;
+    font-weight: bold;
+    font-size:50px;
+    margin-bottom:40px;
+}
+
+/*camera submission section ending*/
+/* important-date-section starting*/
+.important-date{
+    padding:70px 70px 0px 70px;
+    background-color: #F0FFFF;
+}
+.important-date .heading{
+    color:#007ACC;
+    text-align: center;
+    font-weight: bold;
+    font-size:50px;
+    margin-bottom:40px;
+}
+
+/*important date section  ending*/
+
+/*contact-us section starting*/
+.contact-us{
+    padding:30px 70px 30px 70px;
+    background-color:#333333;
+}
+.contact-us .heading{
+    color:#007ACC;
+    text-align: center;
+    font-weight: bold;
+    font-size:50px;
+    margin-bottom:40px;
+}
+/*contact-us section ending*/
